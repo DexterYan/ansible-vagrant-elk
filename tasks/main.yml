@@ -1,0 +1,6 @@
+---
+# Elasticsearch Ansible Tasks
+
+# Install Java
+- include: java.yml
+  when: elasticsearch_install_java
